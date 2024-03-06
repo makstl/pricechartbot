@@ -1,5 +1,5 @@
 # Price Chart Bot
-Price Chart Bot is telegram bot for displaying actual crypto currency charts in telegram.
+Price Chart Bot is telegram bot for displaying actual crypto currency charts in telegram channels.
 
 Bitcoin: https://t.me/bitcoinpricechart
 
