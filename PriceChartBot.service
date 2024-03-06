@@ -1,0 +1,18 @@
+[Unit]
+Description=PriceChartBot console application
+
+[Service]
+# systemd will run this executable to start the service
+ExecStart=/srv/PriceChartBot/PriceChartBot
+# to query logs using journalctl, set a logical name here
+SyslogIdentifier=PriceChartBot
+
+User=root
+
+# ensure the service restarts after crashing
+Restart=always
+# amount of time to wait before restarting the service                        
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
